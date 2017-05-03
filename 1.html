@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+        <title>div重叠 叠加实例 未排层叠顺序 www.jb51.net</title>
+        <style>
+                .div-relative{
+                        position:relative;
+                        color:#000;
+                        border:1px solid #000;
+                        width:1000px;
+                        height:1000px
+                }
+                .div-a{
+                        /*position:absolute;*/   left:70px; top:70px; background:#F00; width:150px; height:150px
+                }
+                /* css注释说明： 背景为红色 */
+                .div-b{
+                        /*position:absolute;*/ left:70px; top:70px; background:#FF0; width:150px; height:150px
+                }
+                /* 背景为黄色 */
+                .div-c{
+                        position:absolute; left:70px; top:70px; background:#00F; width:150px; height:150px
+                }
+                /* DIV背景颜色为蓝色 */
+        </style>
+</head>
+<body>
+<div class="div-relative">
+        <div class="div-a">我背景为红色</div>
+        <div class="div-b">我背景为黄色</div>
+        <div class="div-c">我背景为蓝色</div>
+</div>
+</body>
+</html>  

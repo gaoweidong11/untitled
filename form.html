@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单控件</title>
+</head>
+<body>
+<form action="http://bing.com" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="key" value="val">
+    <input name="email" placeholder="邮箱" disabled="disabled"><br>
+    <input type="password" name="password" placeholder="密码"><br>
+    <input type="radio" name="gender" checked="checked">男
+    <input type="radio" name="gender">女
+    <br>
+    城市
+    <input type="checkbox" name="city" value="北京">北京
+    <input type="checkbox" name="city" value="上海" disabled="disabled">上海
+    <input type="checkbox" name="city" value="深圳" checked="checked" disabled="disabled">深圳
+    <br>
+    照片
+    <input type="file" disabled="disabled">
+    <br>
+    爱好
+    <select name="hobbies" multiple="multiple">
+        <option value="看书">看书 多个\ ['mʌltɪpl]</option>
+        <option value="游戏" disabled="disabled">游戏</option>
+        <option value="电影" selected="selected">电影</option>
+    </select>
+    <br>
+    简介
+    <textarea name="intro" cols="30" rows="10" disabled="disabled"></textarea><br>
+    <input type="submit" value="注册">
+    <input type="reset" value="重置">
+    <input type="button" value="按钮" disabled="disabled">
+    <button>可以提交表单</button>
+</form>
+</body>
+</html>
