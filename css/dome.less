@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.wh(@w,@h,@b){
+  width:@w;
+  height:@h;
+  background:@b;
+}
+.r{
+  position:relative;
+}
+.a{
+  position:absolute;
+}
+.container{
+  .wh(100px,100px,#f6f);
+  .r;
+  span{
+    color:yellow;
+    a{
+      color:red;
+    }
+  }
+}
