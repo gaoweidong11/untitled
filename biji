@@ -1,0 +1,19 @@
+HTML5+CSS3     手机端排版
+html5
+1  增加了语义化标签
+    header  section     footer      nav     aside       article
+    头部       截面         页尾      导航      抛开         文章
+2   form   表格
+3   自定义data-*的属性
+4   增加了一些API
+    a   canvas画布
+    b   本地储存
+    c   离线应用
+    d   拖拽上传文件
+    e   媒体音频 视频（audio   video）
+CSS3
+    box-shadow  text-shadow     background-size     border-images   animation       transition
+     | 阴影效果     字体阴影           背景大小           边框-图像        动画               转折点
+    响应式布局       弹性盒布局
+  app  m站  微网页  m.baidu.com
+less  ： css的预处理器   Sass
